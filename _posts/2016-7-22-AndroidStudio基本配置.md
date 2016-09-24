@@ -45,7 +45,7 @@ Editor->Colors&Fonts->Android Logcat
 
 **启动不自动打开项目**	    
 Appearance&Behavior->System Settings    
-取消勾选Reopen last project on startup    	
+取消勾选Reopen last project on startup    
 ![]({{ site.baseurl }}/images/2016-7-22/as5.png)
 
 ## Live Templates    
