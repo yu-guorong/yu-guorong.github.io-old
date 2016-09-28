@@ -19,9 +19,9 @@ title: Android获取View坐标
 可以通过`LayoutParams`的`setMargins(left,top,right,bottom)`来设置View的显示位置。
 
 
-**参考**：
-[Mr_immortalZ](http://blog.csdn.net/mr_immortalz/article/details/51168278)
-[cookiesp](http://cookiesp.pixnet.net/blog/post/96269514)
+**参考**：    
+[Mr_immortalZ](http://blog.csdn.net/mr_immortalz/article/details/51168278)    
+[cookiesp](http://cookiesp.pixnet.net/blog/post/96269514)    
 [StackOverFlow](http://stackoverflow.com/questions/12052570/getright-getleft-gettop-returning-zero)
 
 
