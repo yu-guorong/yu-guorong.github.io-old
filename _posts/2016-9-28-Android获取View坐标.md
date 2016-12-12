@@ -7,7 +7,7 @@ title: Android获取View坐标
 
 在[StackOverFlow](http://stackoverflow.com/questions/12052570/getright-getleft-gettop-returning-zero)中找到了答案。获取View的坐标需要在`Measure`与`Layout`完成之后。
 而它们的执行都晚于`onCreate`(在`onResume`中也是不能获取到View坐标的）。Activity中有一个方法`onWindowFocusChanged()`是在View绘制完成后执行的，可以在该方法中获取View的坐标。
-
+```
     @Override
     publicvoid onWindowFocusChanged (boolean hasFocus){
       super.onWindowFocusChanged(hasFocus);
@@ -15,7 +15,7 @@ title: Android获取View坐标
     	......
       }
     }
-
+```
 可以通过`LayoutParams`的`setMargins(left,top,right,bottom)`来设置View的显示位置。
 
 
